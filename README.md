@@ -134,7 +134,7 @@ exemp
 ```
 ---
 
-# Exercício 3 - Pedra, Papel, Tesoura
+## Exercício 3 - Pedra, Papel, Tesoura
 
 Faça um jogo de *pedra, papel ou tesoura* de dois jogadores. (Dica: peça as jogadas ao usuário - usando `input` - compare-os, imprima uma mensagem parabenizando o vencedor e pergunte ao usuário se quer continuar jogando).
 
@@ -211,6 +211,7 @@ while True:
 Neste caso o `break` é usado para sair do "laço infinito".
 
 ---
+
 ## Exercício 4 - Jogo da adivinhação
 
 Gere um número aleatório entre 1 e 9 (incluindo 1 e 9).
@@ -242,6 +243,7 @@ a = random.randint(2, 6)
 Aqui, a variável `a` conterá um número aleatório entre 2 e 6 (incluindo 2 e 6). A documentação do pacote `random` está [aqui](https://docs.python.org/3.11/library/random.html).
 
 ---
+
 ## Exercício 5 - Remover duplicatas
 
 Escreva um programa que receba uma lista e retorne uma nova lista que contenha todos os elementos da primeira lista, menos as duplicadas.
@@ -291,6 +293,7 @@ E o resultado:
 ```
 
 ---
+
 ## Exercício 6 - Gerador de Senhas
 
 Escreva um gerador de senhas em python. Seja criativo com a forma de gerar senhas - senhas fortes possuem uma mistura de letras minúsculas, maiúsculas, números e símbolos. As senhas devem ser aleatórioas, gerando uma nova senha a cada vez que o usuário executar o programa.
@@ -301,6 +304,7 @@ Não há tópicos novos, mas você vai precisar usar o
 [módulo random do python](https://docs.python.org/3.11/library/random.html).
 
 ---
+
 ## Exercício 7 - Leitura de arquivos
 
 Dado um arquivo `.txt` que contem uma lista de nomes, conte quantas vezes cada nome aparece no arquivo e imprima os resultados na tela. Um arquivo `nomes.txt` é fornecido junto a esse repositório.
@@ -380,6 +384,7 @@ Esse trecho imprime os pares de chave valor como `(Marcelo, 100)`.
 Note que os dicionários não são ordenados, então iterar por eles não garante nenhuma ordem de chave/valor.
 
 ---
+
 ## Exercício 8
 
 Use os pacotes `BeautifulSoup` e `requests` para imprimir uma lista de todos os títulos de artigos do [New York Times](http://www.nytimes.com/).
